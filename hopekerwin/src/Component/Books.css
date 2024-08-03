@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0af116; /* Blue for the header */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #0af116; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #0af116; /* Very light gray on hover */
+}
+
+.action-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button.available {
+    background-color: #0af116; /* Teal for available */
+    color: white;
+}
+
+.action-button.unavailable {
+    background-color: #ffc107; /* Yellow for unavailable */
+    color: black;
+}
